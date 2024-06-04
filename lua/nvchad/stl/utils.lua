@@ -95,7 +95,8 @@ M.file = function()
     end
   end
 
-  return { icon, name }
+  -- return { icon, name }
+  return { icon, path }
 end
 
 M.git = function()
